@@ -1,0 +1,44 @@
+.video-section {
+  margin-bottom: 80px;
+}
+
+.video-section .section-header {
+  margin-bottom: 40px;
+}
+
+.section-subtitle {
+  font-size: 16px;
+  color: var(--color-gray);
+  margin-top: 8px;
+  font-weight: 400;
+}
+
+.video-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 비율 */
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  background-color: var(--color-light-gray);
+}
+
+.video-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+  .video-section .section-title {
+    font-size: 24px;
+  }
+}

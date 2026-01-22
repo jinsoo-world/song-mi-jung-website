@@ -1,0 +1,27 @@
+.app {
+  display: flex;
+  min-height: 100vh;
+  background-color: var(--color-cream);
+}
+
+.main-content {
+  flex: 1;
+  margin-left: 280px;
+  padding: 40px 60px;
+  max-width: calc(100% - 280px);
+}
+
+/* 모바일 반응형 */
+@media (max-width: 1024px) {
+  .main-content {
+    margin-left: 0;
+    max-width: 100%;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: 20px 16px;
+  }
+}

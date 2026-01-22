@@ -1,0 +1,116 @@
+.footer {
+  background-color: var(--color-white);
+  padding: 60px 0 30px;
+  margin-top: 80px;
+  border-top: 1px solid var(--color-light-gray);
+}
+
+.footer-banner {
+  background: linear-gradient(135deg, var(--color-dark-green) 0%, #2d4230 100%);
+  border-radius: 16px;
+  padding: 50px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.footer-title {
+  font-family: var(--font-main);
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--color-white);
+  line-height: 1.4;
+  letter-spacing: -0.5px;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 40px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 60px;
+}
+
+.footer-company-name {
+  font-family: var(--font-main);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-dark-green);
+  margin-bottom: 16px;
+  letter-spacing: -0.3px;
+}
+
+.footer-info {
+  font-size: 14px;
+  color: var(--color-gray);
+  line-height: 1.8;
+  margin-bottom: 8px;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-contact-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-contact-label {
+  font-size: 14px;
+  color: var(--color-gray);
+  font-weight: 500;
+}
+
+.footer-contact-link {
+  font-size: 16px;
+  color: var(--color-dark-green);
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.footer-contact-link:hover {
+  opacity: 0.7;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 30px;
+  border-top: 1px solid var(--color-light-gray);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  color: var(--color-gray);
+}
+
+@media (max-width: 768px) {
+  .footer-banner {
+    padding: 40px 30px;
+  }
+
+  .footer-title {
+    font-size: 28px;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 0 20px;
+  }
+
+  .footer-bottom {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

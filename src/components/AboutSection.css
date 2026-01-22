@@ -1,0 +1,67 @@
+.about-section {
+  margin-bottom: 80px;
+}
+
+.about-content {
+  max-width: 900px;
+}
+
+.about-company-name {
+  font-family: var(--font-main);
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--color-dark-green);
+  margin-bottom: 24px;
+  letter-spacing: -0.5px;
+}
+
+.about-description {
+  font-size: 18px;
+  line-height: 1.8;
+  color: var(--color-dark-green);
+  margin-bottom: 24px;
+  font-weight: 500;
+}
+
+.about-philosophy {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--color-dark-green);
+  margin-bottom: 32px;
+  padding: 24px;
+  background-color: var(--color-white);
+  border-radius: 12px;
+  border-left: 4px solid var(--color-dark-green);
+}
+
+.about-philosophy strong {
+  color: var(--color-dark-green);
+  font-weight: 600;
+}
+
+.about-services {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.about-services p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--color-gray);
+}
+
+@media (max-width: 768px) {
+  .about-company-name {
+    font-size: 24px;
+  }
+
+  .about-description {
+    font-size: 16px;
+  }
+
+  .about-philosophy {
+    padding: 20px;
+    font-size: 15px;
+  }
+}

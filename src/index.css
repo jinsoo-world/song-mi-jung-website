@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* 색상 팔레트 - 프레이머 템플릿 참고 */
+  --color-cream: #F7F4EB;
+  --color-dark-green: #3D5737;
+  --color-light-green: #D4E0C9;
+  --color-white: #FFFFFF;
+  --color-gray: #6B6B6B;
+  --color-light-gray: #E5E5E5;
+  
+  /* 타이포그래피 - 깔끔한 고딕 계열 */
+  --font-main: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--color-cream);
+  color: var(--color-dark-green);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+}
+
+/* 스크롤 오프셋 조정 */
+section[id] {
+  scroll-margin-top: 100px;
+}
+
+@media (max-width: 1024px) {
+  section[id] {
+    scroll-margin-top: 20px;
+  }
+}
