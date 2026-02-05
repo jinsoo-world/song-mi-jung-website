@@ -10,7 +10,7 @@ function ServicesSection() {
       id: 1,
       title: '글쓰기 출판과정',
       price: '499,000원',
-      link: 'https://curious-500.com/study/3281',
+      link: 'https://curious-500.com/study/3973',
       featured: false,
       icon: '✍️',
       description: '글쓰기와 출판의 전 과정을 체계적으로 배우는 과정입니다. 초보자부터 전문가까지 누구나 참여할 수 있습니다.',

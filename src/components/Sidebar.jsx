@@ -58,15 +58,18 @@ function Sidebar({ isMobileMenuOpen, setIsMobileMenuOpen }) {
             <h2 className="nav-title">연락처 정보</h2>
             <div className="contact-item">
               <span className="contact-label">교육 문의</span>
-              <a href="mailto:" className="contact-value">문의하기</a>
+              <a 
+                href="https://open.kakao.com/o/sRlP4tSf" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="contact-value"
+              >
+                문의하기
+              </a>
             </div>
             <div className="contact-item">
               <span className="contact-label">제휴 및 광고</span>
               <a href="mailto:" className="contact-value">문의하기</a>
-            </div>
-            <div className="contact-item">
-              <span className="contact-label">주소</span>
-              <span className="contact-value">서울 강남구</span>
             </div>
           </div>
 

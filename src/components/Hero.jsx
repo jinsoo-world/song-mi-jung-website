@@ -29,7 +29,15 @@ function Hero() {
           </div>
         </div>
         <div className="hero-decoration">
-          {/* 장식용 일러스트레이션 공간 */}
+          <img 
+            src="/images/img_6078.jpg" 
+            alt="송미정 대표" 
+            className="hero-image"
+            onError={(e) => {
+              console.error('Hero image failed to load:', e.target.src)
+              e.target.src = '/images/song-mi-jung.jpg'
+            }}
+          />
         </div>
       </div>
     </section>

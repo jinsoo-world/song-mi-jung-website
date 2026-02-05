@@ -13,8 +13,7 @@ function Footer() {
       <div className="footer-content">
         <div className="footer-company">
           <h3 className="footer-company-name">(주)부모마인드셋연구소</h3>
-          <p className="footer-info">서울 강남구</p>
-          <p className="footer-info">사업자등록번호 : __ | 대표이사 : 송미정</p>
+          <p className="footer-info">대표이사 : 송미정</p>
         </div>
         <div className="footer-contact">
           <div className="footer-contact-item">
