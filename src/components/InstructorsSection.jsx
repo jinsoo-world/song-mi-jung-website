@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './InstructorsSection.css'
+import BooksSection from './BooksSection'
 
 function InstructorsSection() {
   const [selectedInstructor, setSelectedInstructor] = useState(null)
@@ -251,6 +252,8 @@ function InstructorsSection() {
           </div>
         </div>
       )}
+
+      <BooksSection />
     </>
   )
 }
