@@ -38,15 +38,17 @@ function RepresentativeSection() {
             <h3 className="representative-name">송미정 대표</h3>
             <div className="representative-details">
               <p>
-                송미정 대표는 교육학 석사, 국문학 박사 출신으로 19년간 입시 컨설팅과 부모교육을 연구해온 전문가입니다.
+                <strong>강사 송미정</strong><br />
+                교육학 석사, 문학 박사
               </p>
               <div className="representative-career">
                 <h4>주요 경력</h4>
                 <ul>
-                  <li>국비 지원 1호 입학사정관</li>
-                  <li>교양학부 교수</li>
-                  <li>영재교육센터 언어 연구원</li>
-                  <li>현재: 부모마인드셋연구소 소장</li>
+                  <li>전) 입학사정관, 국민대 교수</li>
+                  <li>전) 성산효대학원 여성역량개발 책임교수</li>
+                  <li>한국디지털콘텐츠능률협회 부회장</li>
+                  <li>한국문인협회, 작가회의, 번역가협회 회원</li>
+                  <li>현재: (주)부모마인드셋연구소 대표</li>
                   <li>현재: 도서출판 우먼더스토리 대표</li>
                 </ul>
               </div>
@@ -55,13 +57,28 @@ function RepresentativeSection() {
                 <div className="awards-list">
                   <div className="award-item">
                     <span className="award-year">2025</span>
-                    <span className="award-title">대한민국 인물 대상</span>
+                    <span className="award-title">대한민국 인물 대상 (교육산업 부문)</span>
+                  </div>
+                  <div className="award-item">
+                    <span className="award-year">2025</span>
+                    <span className="award-title">제13회 대한민국 글로벌파워브랜드 대상 국회의장상 (교육부문)</span>
+                  </div>
+                  <div className="award-item">
+                    <span className="award-year">2024</span>
+                    <span className="award-title">자랑스러운 혁신한국인&파워브랜드대상 (교육산업부문)</span>
                   </div>
                   <div className="award-item">
                     <span className="award-year">2024</span>
                     <span className="award-title">대한민국 소비자 선호 브랜드 대상</span>
                   </div>
                 </div>
+              </div>
+              <div className="representative-broadcast">
+                <h4>방송 출연</h4>
+                <ul>
+                  <li>세바시 강연</li>
+                  <li>머니투데이 '신영일의 비즈정보플러스'</li>
+                </ul>
               </div>
               <p className="representative-vision">
                 부모·자녀·중장년을 아우르는 토털브랜딩을 실천합니다.
