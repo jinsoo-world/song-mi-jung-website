@@ -13,7 +13,7 @@ function InstructorsSection() {
       imagePosition: 'center center',
       title: '멘탈디자인 자기사랑코치과정',
       subtitle: '"자기사랑을 가르치는 전문 코치가 되는 완전한 과정"',
-      applyLink: 'https://open.kakao.com/o/sRlP4tSf',
+      applyLink: 'https://blog.naver.com/hijuria',
       sessions: [
         '1차시 코칭 기초와 자기사랑 코칭 철학',
         '2차시 LOVE 모델과 경청 스킬',
